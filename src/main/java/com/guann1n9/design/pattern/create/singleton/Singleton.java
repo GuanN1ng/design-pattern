@@ -1,4 +1,4 @@
-package com.guann1n9.design.pattern.Behavioral;
+package com.guann1n9.design.pattern.create.singleton;
 
 
 /**
