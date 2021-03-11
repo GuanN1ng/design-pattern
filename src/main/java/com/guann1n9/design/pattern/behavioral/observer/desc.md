@@ -1,4 +1,4 @@
-## 观察者模式
+# 观察者模式
 
 定义了对象之间一(Subject)对多(Observer)依赖，当Subject对象改变状态时，它的所有依赖者都会受到通知并自动更新；
 ```
@@ -19,7 +19,7 @@ Observer<interface>
 * java.util  Observable<------>Observer
 * boolean changed 避免浪费，只通知一次
 
-#### 通知方式 
+##### 通知方式 
 * push
     notifyObservers(this,object);  
 * pull

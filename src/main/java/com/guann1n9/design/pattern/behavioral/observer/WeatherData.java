@@ -44,10 +44,6 @@ public class WeatherData implements Subject {
         ClientA clientA = new ClientA(weatherData);
         ClientB clientB = new ClientB(weatherData);
         weatherData.notifyObservers();
-
-
-
-
     }
 
 
