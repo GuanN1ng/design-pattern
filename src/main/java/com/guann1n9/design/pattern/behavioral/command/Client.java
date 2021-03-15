@@ -11,6 +11,7 @@ public class Client {
         Remoter remoter = new Remoter();
         remoter.setCommand(lightOnCommand);
         remoter.pressOn();
+        remoter.undo();
 
     }
 }

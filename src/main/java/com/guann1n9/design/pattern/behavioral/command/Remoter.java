@@ -22,4 +22,8 @@ public class Remoter {
     void pressOn(){
         command.execute();
     }
+
+    void undo(){
+        command.undo();
+    }
 }
